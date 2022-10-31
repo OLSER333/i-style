@@ -1,0 +1,292 @@
+.service-card {
+  border: 1px solid #E3E3E3;
+  overflow: hidden;
+  border-radius: 6px;
+  background-color: white;
+  width: 100%;
+  height: 260px;
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 18%);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.service-card .slide-images {
+  overflow: hidden;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.service-card .salon-card-photo {
+  width: 300px;
+  min-width: 300px;
+  min-height: 260px;
+  height: 260px;
+  max-width: none;
+}
+
+.service-card .slide-images-block {
+  background-color: #ededed;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.service-card .salon-card-photo img {
+  width: 300px;
+  min-width: 300px;
+  height: 260px;
+  object-fit: cover;
+}
+
+.service-card .image-shadow-button {
+  width: 33px;
+  height: 33px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: #00000073;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.service-card .discount-button {
+  background: linear-gradient(90deg, #99805B 0%, #BDA786 100%);
+  border-radius: 0px 6px 6px 0px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  color: white;
+  padding: 10px 15px;
+}
+
+.service-card .service-card-info {
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.service-card .salon-services {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  margin: 0;
+}
+
+.service-card .list-service {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+.service-card .list-service .service-item {
+  padding: 0 10px;
+  height: 32px;
+  font-size: 14px;
+  font-family: Nunito;
+  min-width: 10%;
+  font-weight: 600;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 170px;
+  border-radius: 3px;
+  margin-bottom: 0;
+}
+
+.service-card .service-title {
+  font-size: 22px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Raleway;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.service-card .service-title:hover {
+  opacity: 0.8;
+}
+
+.service-card .salon-adress {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.service-card .salon-adress img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.service-card .salon-adress span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  line-clamp: 1;
+  word-break: break-all;
+  box-orient: vertical;
+}
+
+.service-card .salon-card-row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service-card .cost-service {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.service-card .cost-service div:first-child {
+  font-weight: 700;
+}
+
+.service-card .cost-service div:last-child {
+  color: var(--brown-color);
+  font-weight: 700;
+}
+
+.service-card .master-title span {
+  color: var(--gray-color);
+  margin-right: 5px;
+}
+
+.service-card .master-title a:hover {
+  opacity: 0.8;
+}
+
+.service-card .service-rating {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  justify-content: flex-start;
+}
+
+.service-card .service-rating .stars-rating {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.service-card .service-rating a {
+  font-weight: normal;
+}
+
+.service-card .service-rating a:hover {
+  opacity: 0.8;
+}
+
+.service-card .service-rating span:last-child {
+  font-weight: normal;
+}
+
+.service-card .service-registration {
+  margin-top: 20px;
+}
+
+.service-card .service-registration a:first-child {
+  margin-bottom: 5px;
+}
+
+.service-card .service-registration .more-information {
+  color: #99805B;
+  font-size: 12px;
+}
+
+.service-card .service-registration .more-information:hover {
+  opacity: 0.8;
+}
+
+.service-card .service-registration .more-information i {
+  margin-left: 10px;
+}
+
+@media (max-width: 770px) {
+  .service-card .information-service .master-title {
+    font-size: 16px;
+  }
+
+  .service-card .service-registration {
+    width: 100%;
+    
+  }
+
+  .service-card .service-registration a:first-child {
+    height: 68px;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .service-card .service-registration .more-information {
+    font-size: 18px;
+    height: 68px;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #99805B;
+    font-weight: 700;
+  }
+
+  .service-card {
+    height: 575px;
+    width: 320px;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .service-card .service-card-info {
+    padding: 0;
+  }
+
+  .service-card .salon-services,
+  .service-card .service-card-row-1,
+  .service-card .information-service {
+    margin-left: 17px;
+  }
+
+  .service-card .service-card-row-1 {
+    margin-bottom: 10px;
+  }
+
+  .service-card .salon-services {
+    padding: 21px 0 10px 0;
+  }
+
+  .catalog-content .service-card .salon-card-photo img {
+    width: 320px;
+    min-width: 320px;
+    height: 200px
+  }
+
+  .catalog-items .service-card .salon-card-photo {
+    width: 320px;
+    min-width: 320px;
+    min-height: 200px;
+    height: 200px;
+  }
+}

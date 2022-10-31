@@ -1,0 +1,53 @@
+.review-form {
+  padding: 20px;
+  font-family: Nunito;
+}
+
+.review-object-title-salon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.review-title {
+  font-size: 24px;
+}
+
+.review-desc {
+  margin-bottom: 20px;
+}
+
+.review-textarea-information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.textarea-characters-count {
+  color: #CDCDCD;
+}
+
+.review-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.review-choise-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.review-textarea-containter {
+  margin-bottom: 20px;
+}
+
+.review_form .primary-button {
+  width: 100%;
+  margin-bottom: 5px;
+}

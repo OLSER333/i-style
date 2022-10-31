@@ -1,0 +1,198 @@
+.landing-master-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #E3E3E3;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 18%);
+}
+
+.landing-master-card__slide {
+  background-color: #ededed;
+  height: 329px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.landing-master-card__photo {
+  max-width: 295px;
+}
+
+.landing-master-card__photo img {
+  width: 295px;
+  min-width: 295px;
+  height: 100%;
+  border-radius: 6px 6px 0 0;
+}
+
+
+.landing-master-card__info {
+  height: 100%;
+  padding: 13px 10px 17px 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.landing-master-card__info > div:last-child {
+  margin-top: auto;
+}
+
+.landing-master-card__info .landing-salon-card__services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.landing-master-card__info .landing-salon-card__services div:last-child {
+  margin-bottom: 20px;
+}
+
+.landing-master-card__info .landing-master-card__adress {
+  margin-bottom: 20px;
+}
+
+.landing-master-card__header {
+  margin-bottom: 6px;
+
+  font-size: 22px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.landing-master-card__logo {
+  width: 41px;
+  height: 41px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.landing-master-card__logo img {
+  border: 1px solid #F3F3F3;
+  border-radius: 50%;
+  width: 41px;
+}
+
+.landing-master-card__logo span {
+  border: 1px solid #F3F3F3;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  min-width: 35px;
+  min-height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 19px;
+}
+
+.landing-master-card__name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  white-space: nowrap;
+}
+
+.landing-master-card__stars {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.landing-master-card__stars i {
+  margin-right: 4px;
+  color: var(--gray-color);
+  font-size: 15px;
+}
+
+.landing-master-card__stars span {
+  font-size: 14px;
+}
+
+.landing-master-card__stars-coments {
+  font-size: 14px;
+  font-weight: normal;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  white-space: nowrap;
+}
+
+.landing-master-card__adress {
+  font-size: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.landing-master-card__adress img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+@media (max-width:1260px) {
+  .landing-salon-card__services {
+    margin-bottom: 20px;
+  }
+}
+
+.landing-salon-card__services .button {
+  /* min-width: 100px; */
+  font-weight: 600;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-family: Nunito;
+  max-width: 170px;
+  height: 32px;
+  font-size: 14px;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+
+.landing-salon-card__services .button.dark-button {
+  /* width: 100%; */
+  font-weight: normal;
+}
+
+.landing-salon-card__services-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.master-card-footer {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: auto;
+}
+
+.master-card-footer__price-desc {
+  font-weight: 700;
+}
+
+.master-card-footer__text {
+  position: absolute;
+}
+
+.master-card-footer__range > span {
+  white-space: nowrap;
+  width: 100%;
+}
+
+.master-card-footer__range {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 124px;
+}

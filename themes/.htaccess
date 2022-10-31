@@ -1,0 +1,15 @@
+DirectorySlash Off
+AddDefaultCharset utf-8
+Options -Indexes
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} ^(.+)/$
+RewriteRule ^(.+)/$ /themes/$1 [R=301,L]
+RewriteRule ^(.*?)\.(css|js|jpg|jpeg|png|pdf|eot|ttf|woff|woff2|svg|gif)$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^.*$ /index.php [L]
+
+ErrorDocument 403 http://%{HTTP_HOST}%{REQUEST_URI}/404
+ErrorDocument 404 http://%{HTTP_HOST}%{REQUEST_URI}/404
+ErrorDocument 500 http://%{HTTP_HOST}%{REQUEST_URI}/404

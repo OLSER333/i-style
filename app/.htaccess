@@ -1,0 +1,13 @@
+DirectorySlash Off
+AddDefaultCharset utf-8
+Options -Indexes
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} ^(.+)/$
+RewriteRule ^(.+)/$ /app/$1 [R=301,L]
+RewriteRule ^.*$ /index.php [L]
+
+ErrorDocument 403 http://%{HTTP_HOST}%{REQUEST_URI}/404
+ErrorDocument 404 http://%{HTTP_HOST}%{REQUEST_URI}/404
+ErrorDocument 500 http://%{HTTP_HOST}%{REQUEST_URI}/404

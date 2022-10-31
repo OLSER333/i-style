@@ -1,0 +1,332 @@
+.about-background {
+  background-color: white;
+}
+
+.about-background.about-page.page-wrapper .contacts-title.path-catalog {
+  position: static;
+  transform: translate(0);
+}
+
+.wave-bottom-top {
+  display: none;
+}
+
+.petal-bottom-top {
+  display: none;
+}
+
+.about-background .wrapper-service-catalog {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 100px;
+}
+
+.about-background .wave-bottom-top {
+  position: absolute;
+  min-width: 100%;
+  display: block;
+}
+
+.about-background .petal-bottom-top {
+  position: absolute;
+  right: 20%;
+  top: 420px;
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .about-background .petal-bottom-top {
+    right: 10%;
+  }
+}
+
+@media (max-width: 558px) {
+  .about-background .petal-bottom-top {
+    right: 10%;
+    top: 470px;
+  }
+}
+
+@media (max-width: 410px) {
+  .about-background .petal-bottom-top {
+    right: 10%;
+    top: 510px;
+  }
+}
+
+@media (max-width: 378px) {
+  .about-background .petal-bottom-top {
+    right: 10%;
+    top: 550px;
+  }
+}
+
+.flower-bottom-top {
+  display: none;
+}
+
+@media (max-width: 1080px) {
+  .flower-bottom-top {
+    display: block;
+    position: absolute;
+    right: -20%;
+    z-index: 1;
+    height: 250px;
+  }
+}
+
+.contacts-background .petal-bottom-top {
+  position: absolute;
+  left: 5%;
+  top: 320px;
+  display: block;
+  z-index: 1;
+}
+
+.contacts-bottom-top {
+  display: none;
+}
+
+.contacts-bottom-top {
+  position: absolute;
+  display: block;
+  min-width: 100%;
+}
+
+@media (max-width: 1080px) {
+  .contacts-background .petal-bottom-top {
+    display: none;
+  }
+}
+
+.flower-contacs-top {
+  right: -20%;
+  position: absolute;
+}
+
+.faq-bottom-top {
+  display: none;
+}
+
+.faq-background .faq-bottom-top {
+  display: block;
+  min-width: 100%;
+  position: absolute;
+  top: 16%;
+}
+
+.faq-background .petal-faq-top {
+  display: block;
+  position: absolute;
+  top: -5%;
+  left: -20%;
+}
+
+.faq-background .flower-faq-top {
+  display: block;
+  position: absolute;
+  right: -35%;
+  top: -30%;
+}
+@media (max-width: 1080px) {
+  .faq-background .flower-faq-top,
+  .faq-background .petal-faq-top {
+    display: none;
+  }
+}
+
+
+.about-background .about-header {
+  font-family: Nunito;
+  margin-bottom: 212px;
+  margin-top: -30px;
+}
+
+.about-header .about-logo {
+  margin: 0 auto;
+  margin-bottom: 48px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.about-header .about-logo img {
+  width: 260px;
+}
+
+.about-header .about-header-text {
+  font-size: 20px;
+  max-width: 523px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about-header .about-subtitle {
+  line-height: 1.5;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.about-subtitle + p {
+  color: var(--gray-color);
+  font-weight: 700;
+}
+
+.about-page-block {
+  padding-bottom: 70px;
+}
+
+.about-page-block .logo-tilda strong::after {
+  display: none;
+}
+
+.about-page-block .logo-tilda {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.about-page-block-title {
+  text-align: center;
+  max-width: 550px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.about-page-block-title .logo-tilda {
+  width: auto;
+  font-size: 35px;
+  color: #383838;
+}
+
+.about-page-block-title .logo-tilda::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  width: 32px;
+  height: 8px;
+  background-image: url(/themes/purple/assets/images/logo-tilda.png?74566db…);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 32px;
+}
+
+.about-page-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2%;
+  font-family: Nunito;
+}
+
+.about-page-block:first-child .about-page-wrap:first-child {
+  margin-bottom: 67px;
+}
+
+.about-page-block:first-child .about-page-wrap:nth-child(2) {
+  margin-bottom: 98px;
+}
+
+.about-page-block:first-child .about-page-wrap:nth-child(3) {
+  margin-bottom: 98px;
+}
+
+
+.about-page-block:last-child .about-page-wrap:first-of-type {
+  margin-bottom: 67px;
+}
+
+.about-page-block:last-child .about-page-wrap:nth-of-type(2) {
+  margin-bottom: 98px;
+}
+
+.about-page-block:last-child .about-page-wrap:nth-of-type(3) {
+  margin-bottom: 98px;
+}
+
+.about-page-wrap .block-body-text p {
+  font-size: 25px;
+}
+
+.block-body-text {
+  max-width: 650px;
+}
+
+.block-body-image {
+  width: 47%;
+}
+
+.block-body-image img {
+  width: 100%;
+}
+
+.block-body-icon {
+  margin-bottom: 30px;
+}
+
+.block-body-icon img {
+  width: 45px;
+}
+
+.block-body-text h2 {
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--gray-color);
+  margin-bottom: 30px;
+}
+
+.block-body-text:nth-child(2) {
+  margin-left: 140px;
+}
+
+.about-page-coloumn {
+  margin-bottom: 50px;
+}
+
+.column-one {
+  margin-bottom: 168px;
+}
+
+.column-two {
+  margin-top: 100px;
+  margin-bottom: 140px;
+}
+
+.about-page-coloumn .block-body-text {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 650px;
+}
+
+.block-body-image.full-width {
+  width: 100%;
+}
+
+.wawe-bottom {
+  position: absolute;
+  top: -120px;
+  min-width: 100%;
+}
+
+@media (max-width: 559px) {
+  .about-page-block .logo-tilda {
+    background-position-x: 61%;
+  }
+}
+
+@media (max-width: 840px) {
+  .block-body-text:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .about-page-block .about-page-wrap {
+    flex-direction: column;
+  }
+
+  .about-page-wrap .block-body-text {
+    text-align: center;
+  }
+
+  .about-page-wrap .block-body-text p {
+    margin-bottom: 39px;
+  }
+}

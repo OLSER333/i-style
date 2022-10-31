@@ -1,0 +1,64 @@
+.review-item {
+  max-width: 610px;
+  height: 191px;
+  display: flex;
+  background: white;
+  border-radius: 6px;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  font-family: 'Nunito';
+}
+
+.review-item-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.review-item-title {
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.review-item-date {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9E9E9E;
+}
+
+.review-item-rating {
+  margin-left: auto;
+}
+
+.review-item-text {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.review-item-main-info {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1010px) {
+  .review-item {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 680px) {
+  .review-item {
+    padding: 10px;
+    height: 211px;
+  }
+
+  .review-item-header {
+    display: block;
+  }
+
+  .review-item-main-info {
+    margin-bottom: 5px;
+  }
+}

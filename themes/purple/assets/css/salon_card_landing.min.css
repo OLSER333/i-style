@@ -1,0 +1,194 @@
+.landing-salon-card {
+  display: flex;
+  border: 1px solid #E3E3E3;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 18%);
+}
+
+@media (max-width: 1260px) {
+  .landing-salon-card {
+    flex-direction: column;
+  }
+}
+
+.landing-salon-card .salon-card-header__adress {
+  margin-bottom: 28px;
+}
+
+.landing-salon-card__photo {
+  max-width: 260px;
+}
+
+.landing-salon-card__photo img {
+  width: 260px;
+  min-width: 260px;
+  height: 282px;
+  object-fit: cover;
+  border-radius: 6px 0 0 6px;
+}
+
+@media (max-width: 1260px) {
+  .landing-salon-card__photo {
+    max-width: 320px;
+  }
+
+  .landing-salon-card__photo img {
+    width: 320px;
+    min-width: 320px;
+    height: 200px;
+    border-radius: 6px 6px 0 0;
+  }
+}
+
+.landing-salon-card__info {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 1260px) {
+  .landing-salon-card__info {
+    height: 100%;
+    padding: 23px 19px 17px 19px;
+  }
+}
+
+.salon-card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+@media (max-width: 1260px) {
+  .salon-card-header {
+    margin-bottom: 20px;
+  }
+}
+
+.salon-card-header__title {
+  margin-bottom: 6px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.salon-card-header__logo {
+  width: 41px;
+  height: 41px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.salon-card-header__logo img {
+  border: 1px solid #F3F3F3;
+  border-radius: 50%;
+  width: 41px;
+}
+
+.salon-card-header__logo span {
+  border: 1px solid #F3F3F3;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  min-width: 35px;
+  min-height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 19px;
+}
+
+.salon-card-header__adress {
+  font-size: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.salon-card-header__adress img {
+  margin-right: 5px;
+  width: 20px;
+}
+
+.salon-card-header__name span, .salon-card-header__adress span, .salon-card-services__list span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  white-space: nowrap;
+}
+
+@media (max-width:1260px) {
+  .salon-card-services {
+    margin-bottom: 20px;
+  }
+}
+
+.salon-card-services .button {
+  font-weight: 600;
+  width: max-content;
+  font-family: Nunito;
+  max-width: 170px;
+  height: 32px;
+  font-size: 14px;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+
+.salon-card-services .button.dark-button {
+  font-weight: normal;
+}
+
+.salon-card-services__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.salon-card-footer {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: auto;
+}
+
+.salon-card-footer__stars {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  font-weight: 700;
+}
+
+@media (max-width: 1260px) {
+  .salon-card-footer__text {
+    position: absolute;
+  }
+}
+
+.salon-card-footer__range > span {
+  white-space: nowrap;
+  width: 100%;
+}
+
+@media (max-width: 1260px) {
+  .salon-card-footer__range {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 124px;
+  }
+
+  .salon-card-footer__stars-desc {
+    display: none;
+  }
+}
+
+.salon-card-footer__stars-desc {
+  margin-right: 5px;
+}

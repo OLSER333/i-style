@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 717" width="1920" height="717">
+	<title>Rectangle 100-svg</title>
+	<defs>
+		<image width="1920" height="566" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSI1NjYiIHZpZXdCb3g9IjAgMCAxOTIwIDU2NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjE5MjAiIGhlaWdodD0iNTY2IiBmaWxsPSIjRjdGN0Y3Ii8+Cjwvc3ZnPgo="/>
+		<image width="1920" height="562" id="img2" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSI1NjIiIHZpZXdCb3g9IjAgMCAxOTIwIDU2MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5MjAgNTU5LjMyN0MxODQxLjkyIDU0MS43NjMgMTc2MC4xNyA1MzEuMDAyIDE2ODQuNSA1MzEuMDAyQzE1MTUuNjQgNTM5LjAyMyAxNTIwLjUgNTcyLjUwMSAxMjYxLjUgNTU4QzEwMDIuNSA1NDMuNDk4IDUwNC42NjYgMTQyLjU0NCAwLjAwMDg1NDQ5MiA0ODkuNTAyQzAuMDAwODU0NDkyIDE2OCAwLjAwMDg1NDQ5MiAyMzUgMC4wMDA4NTQ0OTIgMTEuNDQ3MUMxMzEuODE0IDcxLjA4MDcgMjg3LjAzNyAxMDUuOTM0IDQ2Mi41IDgyLjQ5OThDMTI0MC43IC0yMS40MzUxIDExNjcgMjI1LjUgMTkyMCAtMC4wMDAxMjIwN0MxOTIwIDMzMC41IDE5MjAgMzA1IDE5MjAgNTU5LjMyN1oiIGZpbGw9IiNFRkRERTMiLz4KPC9zdmc+Cg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #f7f7f7 } 
+	</style>
+	<use id="Rectangle 98" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+	<path id="Layer" class="s0" d="m0 454h1920c0 0 0 64.5 0 132-720.5-60.5-1143.5 84.5-1396 84.5-252.5 0-524-145-524-145z"/>
+	<use id="Rectangle 49" href="#img2" transform="matrix(1,0,0,1,0,107)"/>
+</svg>

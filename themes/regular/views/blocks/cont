@@ -1,0 +1,30 @@
+<li class="nav-item dropdown">
+
+        <a class="nav-link nav-icon hover-opacity" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <?=$new_messages_count?>
+        </a><!-- End Messages Icon -->
+
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+                Новых сообщений: <?=$new_messages_count_number?>
+            </li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <?php if(!empty($messages)) { foreach($messages as $message) { echo $message; } }?>
+
+            <li class="dropdown-footer">
+                <a href="<?=$inbox_link?>">Показать все сообщения</a>
+            </li>
+
+        </ul><!-- End Messages Dropdown Items -->
+
+    </li><!-- End Messages Nav -->
+    
+    <li class="nav-item d-block ">
+        <a class="nav-link nav-icon hover-opacity" href="<?=$wallet_link?>">
+            <i class="bi bi-wallet2"></i>
+            <span style='padding-left: 5px'><?=$balance?></span>
+        </a>
+    </li>

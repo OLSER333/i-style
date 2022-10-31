@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600" width="1920" height="600">
+	<title>Rectangle 98-svg</title>
+	<defs>
+		<image width="3840" height="592" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYwIiBoZWlnaHQ9IjE0OCIgdmlld0JveD0iMCAwIDk2MCAxNDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0wLjAwMDc5MzQ1NyAwSDk1OS45OTlDOTU5Ljk5OSAwIDk1OS45OTkgMjcgOTU5Ljk5OSA1NkMzMDIgNTYgMzQ2IDE0OCAwIDE0OEMwIDYuMjA5MTQgMC4wMDA3OTM0NTcgNjEuNSAwLjAwMDc5MzQ1NyAwWiIgZmlsbD0iI0Y3RjdGNyIvPgo8L3N2Zz4K"/>
+		<image width="960" height="148" id="img2" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYwIiBoZWlnaHQ9IjE0OCIgdmlld0JveD0iMCAwIDk2MCAxNDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik05NTkuOTk5IDBIMC4wMDA2NzEzODdDMC4wMDA2NzEzODcgMCAwLjAwMDY3MTM4NyAyNyAwLjAwMDY3MTM4NyA1NkM2NTggNTYgNjE0IDE0OCA5NjAgMTQ4Qzk2MCA2LjIwOTE0IDk1OS45OTkgNjEuNSA5NTkuOTk5IDBaIiBmaWxsPSIjRjdGN0Y3Ii8+Cjwvc3ZnPgo="/>
+	</defs>
+	<style>
+		.s0 { fill: #f7f7f7 } 
+	</style>
+	<path id="Layer" class="s0" d="m0 0h1920v371h-1920z"/>
+	<use id="Rectangle 103" href="#img1" transform="matrix(.25,0,0,.25,960,358)"/>
+	<use id="Rectangle 104" href="#img2" transform="matrix(1,0,0,1,0,359)"/>
+</svg>

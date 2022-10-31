@@ -1,0 +1,151 @@
+.contacts-background .wrapper-service-catalog {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contacts-background.contacts-page.page-wrapper {
+  padding-bottom: 100px;
+}
+
+.contacts-title h2 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #383838;
+}
+
+.contacts-info {
+  width: 477px;
+  margin-left: 22px;
+  margin-top: 73px;
+  background-color: #FFF;
+  font-family: Nunito;
+  padding: 25px 22px 25px 0;
+  border-radius: 6px;
+  margin-bottom: 141px;
+}
+
+.contacts-info-right-image {
+  position: absolute;
+  z-index: 0;
+  right: 20px;
+  top: 85px;
+}
+
+@media (max-width: 1080px) {
+  .contacts-info-right-image {
+    display: none;
+  }
+
+  .contacts-info {
+    max-width: 760px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+  }
+
+  .wrapper-service-catalog .question-form {
+    max-width: 680px;
+  }
+}
+
+.contacts-info-right-image img {
+  border-radius: 6px;
+}
+
+.contacts-header {
+  margin-bottom: 21px;
+}
+
+@media (max-width: 870px) {
+  .contacts-header {
+    margin-bottom: 31px;
+  }
+}
+
+.contacts-phone {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 11px;
+}
+
+.contacts-info-image {
+  position: relative;
+  left: -22px;
+  top: -11px;
+}
+
+.contacts-info-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.contacts-info-row div:first-child {
+  align-self: flex-start;
+  margin-right: 15px;
+  font-weight: 700;
+  color: var(--gray-color);
+}
+
+.contacts-requisites {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+@media (max-width: 870px) {
+  .contacts-info {
+    text-align: center;
+    padding-top: 0;
+    padding-left: 22px;
+    margin-bottom: 39px;
+  }
+
+  .contacts-phone {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .contacts-requisites {
+    display: block;
+  }
+
+  .contacts-info-row {
+    display: block;
+  }
+
+  .contacts-info-image {
+    width: 42px;
+    left: 50%;
+    top: 0;
+    margin-bottom: 4px;
+    transform: translateX(-50%);
+  }
+
+  .contacts-phone {
+    top: -17px;
+  }
+
+  .contacts-phone, .contacts-requisites {
+    margin-bottom: 4px;
+  }
+
+  .contacts-info-row div:first-child {
+    margin: 0;
+  }
+
+  .contacts-info .contacts-info-row div {
+    margin-bottom: 4px;
+  }
+}
+
+@media (max-width: 520px) {
+  .wrapper-service-catalog .question-form {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    background-color: #fff;
+  }
+}

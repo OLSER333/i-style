@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" width="41" height="41">
+	<title>Rectangle 98-svg</title>
+	<defs>
+		<image width="10" height="6" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNiIgdmlld0JveD0iMCAwIDEwIDYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xLjE3NSAwTDUgMy43MTE1OUw4LjgyNSAwTDEwIDEuMTQ4MjVMNSA2TDAgMS4xNDgyNUwxLjE3NSAwWiIgZmlsbD0iI0M3NUI3QiIvPgo8L3N2Zz4K"/>
+	</defs>
+	<style>
+		.s0 { fill: #f4f4f4 } 
+	</style>
+	<path id="Layer" class="s0" d="m0 6c0-3.3 2.7-6 6-6h29c3.3 0 6 2.7 6 6v29c0 3.3-2.7 6-6 6h-29c-3.3 0-6-2.7-6-6z"/>
+	<use id="Развернуть больше телефонов" href="#img1" transform="matrix(1,0,0,1,16,18)"/>
+</svg>

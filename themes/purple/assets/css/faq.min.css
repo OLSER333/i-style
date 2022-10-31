@@ -1,0 +1,127 @@
+.faq-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 119px;
+  font-family: Nunito;
+}
+
+.faq-background.fag-page.page-wrapper .contacts-title.path-catalog {
+  position: static;
+  transform: translate(0);
+}
+
+@media (max-width: 750px) {
+  .faq-list {
+    margin-bottom: 85px;
+  }
+}
+
+/* FAQ */
+
+.faq-background .wrapper-service-catalog {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 100px;
+}
+
+.question-form {
+  max-width: 830px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 0 10px;
+  padding-top: 20px;
+}
+
+.question-form .question-form-title {
+  text-align: center;
+}
+
+.question-form .question-form-title .logo-tilda {
+  background-image: url(/themes/purple/assets/images/logo-tilda.png?74566db…);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 32px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 10px 25px;
+  color: var(--dark-gray-color);
+  font-size: 35px;
+}
+
+.question-form .question-form-title .logo-tilda strong::after {
+  display: none;
+}
+
+.question-form .question-form-personal-data {
+  display: flex;
+  max-width: 830px;
+  gap: 0 10px;
+  margin-bottom: 10px;
+}
+
+.question-form .question-form-personal-data input {
+  width: 100%;
+  margin: 0;
+  height: 65px;
+}
+
+.question-form textarea.text-input {
+  resize: none;
+  height: 120px;
+  padding: 5px 15px;
+  line-height: 1.5;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.question-form .primary-button {
+  height: 65px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.question-form .checkbox-block {
+  display: flex;
+  justify-content: center;
+  font-family: Raleway;
+  margin: 0;
+}
+
+@media (max-width: 750px) {
+  .faq-list {
+    flex-wrap: wrap;
+    gap: 0;
+    align-content: flex-start;
+  }
+  .faq-list div div:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 520px) {
+  .question-form {
+    margin-bottom: 50px;
+  }
+
+  .question-form .question-form-personal-data {
+    flex-wrap: wrap;
+  }
+
+  .question-form .question-input:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .question-form .question-form-personal-data input {
+    height: 65px;
+  }
+}
+
+@media (max-width: 385px) {
+  .question-form .question-form-title .logo-tilda {
+    width: auto;
+    background-position-x: 70%;
+  }
+}
