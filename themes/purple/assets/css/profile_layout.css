@@ -1,0 +1,247 @@
+/*
+1024px - к плашке меню
+770px
+*/
+
+@media (max-width: 770px) {
+    .profile-avatar.profile-avatar_mb {
+        width: 70px;
+        min-width: 70px;
+        height: 70px;
+    }
+
+    .profile-avatar.profile-avatar_mb span {
+        width: 100%;
+        height: 100%;
+        min-height: unset;
+        min-width: unset;
+    }
+
+}
+
+
+/* в одну строку, ум. шрифт ФИО*/
+@media (max-width: 770px) {
+    .profile-name.profile-name_mb {
+        font-size: 24px;
+        display: flex;
+        gap: 5px;
+    }
+}
+
+
+/*notices уведомления кнопкой абсолютом в mobile */
+.notice-mb-button {
+    display: none;
+}
+
+
+.notice-wrap-js-block {
+    width: 100%;
+}
+
+
+.notice-wrap-box-count {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.notice-inner-wrap-box-count {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.notice-box-count {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #C75B7B;
+    border-radius: 50%;
+    border: 1px solid #C75B7B;
+    width: 35px;
+    height: 35px;
+}
+
+.notice-go-notice-txt {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C75B7B;
+}
+
+.notice-item.notice-item_mb {
+    display: flex;
+    align-items: center;
+}
+
+.notice-has {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+
+    margin-left: 30px;
+}
+
+@media (max-width: 1024px) {
+    .notice-go-notice-txt {
+        display: none;
+    }
+}
+
+
+.notice-bell-icon {
+    position: absolute;
+    top: calc(50% - 12px);
+}
+
+
+@media (max-width: 770px) {
+    .notice-wrap-js-block {
+        width: 50px;
+    }
+
+    .notice-mb-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        background: #fff;
+    }
+
+    /*.notice-mb-button .gray-text {*/
+    /*    width: 40px;*/
+    /*    height: 40px;;*/
+    /*}*/
+    .notice-mb-button .far.fa-bell {
+        margin: 0;
+    }
+
+    .notice-button-count {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 5px;
+        top: 5px;
+        background: #FBBC05;
+        border-radius: 50%;
+        color: #fff;
+        width: 20px;
+        height: 20px;
+    }
+
+    .notices-box.notices-box_mb {
+        position: absolute;
+        top: 0;
+        right: -1000px;
+        width: 90vw;
+        transition: all 0.3s ease;
+    }
+
+    .notices-box.notices-box_active {
+        right: 0;
+        z-index: 30;
+        /*    у модалки z-index20*/
+    }
+
+    .far.fa-bell {
+        font-size: 20px;
+    }
+
+    .notice-popup-bg-close {
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+
+    .notice-popup-bg-close.notice-popup-bg-close_active {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background: #000;
+        opacity: 0.4;
+        z-index: 20;
+    }
+}
+
+@media (max-width: 900px) {
+    .notice-hidden {
+        display: none;
+    }
+}
+
+
+/*personal profile menu из 4 страниц-переключателей -> к плашке внизу на мобилке*/
+@media (max-width: 1024px) {
+    .profile-menu.profile-menu_mb {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        z-index: 30;
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        border-radius: 0;
+    }
+}
+
+
+/*меняем текст на картинки(js) + цвет*/
+@media (max-width: 1024px) {
+    .profile-menu-item.profile-menu-item_mb {
+        width: 100%;
+        flex-basis: 25%;
+        display: flex;
+        justify-content: center;
+        background: var(--primary-color);
+        padding: 20px 0;
+    }
+
+    .profile-menu-item.profile-menu-item_mb.active {
+        background: #EAC4CF;
+    }
+}
+
+
+/*hidden title tilda  и del margins title*/
+@media (max-width: 770px) {
+    .title-tilda.title-tilda_mb {
+        display: none;
+    }
+
+    .profile-content-title-block {
+        margin: 0;
+    }
+}
+
+
+/*//Просто правка мелких косяков==============================================================*/
+
+.breadcrumbs a.back-button {
+    padding-left: 0;
+}
+
+.notice-item {
+    background: #fff;
+}
+
+.text-input.reviews-inp {
+    border: 1px solid #D1D1D1;
+    padding-left: 10px;
+}
+
+
+
+

@@ -29,6 +29,10 @@
     <link rel="stylesheet" href="/themes/purple/assets/css/faq_question.min.css?v<?= time() ?>">
     <link rel="stylesheet" href="/themes/purple/assets/css/master_card_landing.min.css?v<?= time() ?>">
     <link rel="stylesheet" href="/themes/purple/assets/css/review_form.min.css?v<?= time() ?>">
+    <link rel="stylesheet" href="/themes/purple/assets/css/profile_layout.css">
+    <link rel="stylesheet" href="/themes/purple/assets/css/profile_settings.css">
+    <link rel="stylesheet" href="/themes/purple/assets/css/profile_favorites.css">
+    <link rel="stylesheet" href="/themes/purple/assets/css/profile_reviews.css">
 
 
 
@@ -43,6 +47,7 @@
     <script src="/themes/purple/assets/js/slider-landing.js"></script>
     <script src="/themes/purple/assets/js/salon-page.js"></script>
     <script src="/themes/purple/assets/js/catalog.js"></script>
+    <script src="/themes/purple/assets/js/profile_layout.js"></script>
     <script src="/assets/vendor/jquery/jquery.mask.min.js"></script>
     <script src="/assets/js/app.js?v=4"></script>
     <title><?= $title ?></title>

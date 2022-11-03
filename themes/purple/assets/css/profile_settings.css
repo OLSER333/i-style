@@ -1,0 +1,7 @@
+/*profile -> personal data - настройка данных о пользователе*/
+
+@media (max-width: 1024px) {
+    .profile-form.profile-form_mb {
+        justify-content: center;
+    }
+}

@@ -6,7 +6,7 @@
         <div class="auth-form-message green-text bold"><?=$message?></div>
     </div>
     <div class="space10"></div>
-    <div class="profile-form flex flex-start flex-wrap align-end gap-30-20 nunito">
+    <div class="profile-form profile-form_mb flex flex-start flex-wrap align-end gap-30-20 nunito">
         <div class="profile-form-item">
             <label>
                 <div class="input-title mb5"><?=t('first_name')?></div>

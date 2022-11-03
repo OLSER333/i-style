@@ -5,23 +5,19 @@
         <input id='view_filter' type="hidden" name="view" value='all'>
         <input id='search_filter' type="hidden" name="search" value=''>
     </form>
-    <div class="profile-catalog-filters flex">
-        <div class="flex gap-20">
-            <div class='header-search'>
-                <input id='searchform_filter' type="text" placeholder="<?=t('search_by_reviews')?>" class="text-input">
+    <div class="profile-catalog-filters profile-catalog-filters_reviews_mb flex">
+        <div class="profile-wrap_mb">
+            <div class='header-search profile-header-search_mb'>
+                <input id='searchform_filter' type="text" placeholder="<?=t('salon_name_master')?>" class="text-input searchform_filter_mb">
                 <button data-name='search' class='search-button profile-content-searchform-js'><img src='/themes/purple/assets/images/search.svg'></button>
+
             </div>
-            <!-- <div class="search-by-date bold primary-text flex gap-5 font14 pointer hover">
-                <span><?=t('search_by_date')?></span>
-                <img src="/themes/purple/assets/images/calendar-purple.svg" alt="">
-            </div> -->
-        </div>
-        
-        <div data-active-class='active' class="profile-catalog-filter-items flex gap-15 change-list-js">
-            <a data-name='view' data-query='all' class='change-list-item-js profile-content-filter-js profile-catalog-filter-item flex gap-10 hover active'><i class="fas fa-circle"></i><?=t('all')?></a>
-            <a data-name='view' data-query='salons' class='change-list-item-js profile-content-filter-js profile-catalog-filter-item flex gap-10 hover'><i class="fas fa-circle"></i><?=t('salons')?></a>
-            <a data-name='view' data-query='masters' class='change-list-item-js profile-content-filter-js profile-catalog-filter-item flex gap-10 hover'><i class="fas fa-circle"></i><?=t('masters')?></a>
-            <a data-name='view' data-query='services' class='change-list-item-js profile-content-filter-js profile-catalog-filter-item flex gap-10 hover'><i class="fas fa-circle"></i><?=t('services')?></a>
+            <div data-active-class='active' class="profile-catalog-filter-items flex gap-15 change-list-js">
+                <a data-name='view' data-query='all' class='change-list-item-js profile-content-filter-js profile-catalog-filter-item flex gap-10 hover active'><i class="fas fa-circle"></i><?=t('all')?></a>
+                <a data-name='view' data-query='salons' class='change-list-item-js profile-content-filter-js profile-catalog-filter-item flex gap-10 hover'><i class="fas fa-circle"></i><?=t('salons')?></a>
+                <a data-name='view' data-query='masters' class='change-list-item-js profile-content-filter-js profile-catalog-filter-item flex gap-10 hover'><i class="fas fa-circle"></i><?=t('masters')?></a>
+                <a data-name='view' data-query='services' class='change-list-item-js profile-content-filter-js profile-catalog-filter-item flex gap-10 hover'><i class="fas fa-circle"></i><?=t('services')?></a>
+            </div>
         </div>
     </div>
     <div class="space15"></div>
@@ -31,7 +27,7 @@
     <div class="red-text bold"><?=$error?></div>
     <?php } ?>
     <div class="space15"></div>
-    <div id='profile_content_items' class='opacity-transition'>
+    <div id='profile_content_items profile_content_items_mb' class='opacity-transition'>
         <?php foreach($reviews as $item) {
             echo $item;
         } ?>

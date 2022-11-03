@@ -1,0 +1,55 @@
+/*//=Стили от Олега для favorites=================================================================*/
+.profile-catalog-filters_favor_mb {
+    gap: 30px;
+    width: 100%;
+}
+
+.profile-wrap_mb {
+    display: flex;
+    gap: 30px;
+    flex-basis: 66%;
+}
+
+@media (max-width: 770px) {
+    .profile-catalog-filters.profile-catalog-filters_favor_mb {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .profile-wrap_mb {
+        flex-direction: column;
+        gap: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .profile-wrap_mb::before {
+        content: '';
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        background: url('/themes/purple/assets/images/calendar-purple.svg') 0 0 / contain no-repeat;
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .profile-header-search_mb {
+        max-width: 86%;
+    }
+
+    .text-input.searchform_filter_mb {
+        border-radius: 6px;
+        padding: 0 15px;
+        border: 1px solid #D1D1D1;
+    }
+
+
+    .profile-catalog-sorting-filter_mb {
+        transform: translateX(-72px);
+    }
+}
+
+
+/*//==================================================================*/
